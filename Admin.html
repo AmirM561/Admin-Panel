@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CodePen - Admin Panel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/gentelella/1.3.0/css/custom.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/d9a7fcbd8f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <body class="nav-sm">
+      <div class="container body">
+        <class class="main_container">
+          <div class="col-md-3 left_col left_nav">
+            <div class="left_col scroll-view">
+              <div class="navbar nav_title" style="border: 0">
+                <a href="index.html" class="site_title"
+                  ><i class="fa fa-user-secret" style="color:rgb(255, 255, 255)"></i> <span>Admin</span></a
+                >
+              </div>
+
+              <div class="clearfix"></div>
+
+              <!-- menu profile quick info -->
+              <div class="profile clearfix">
+                <div class="profile_pic">
+                  <img
+                    src="images/img.jpg"
+                    alt="..."
+                    class="img-circle profile_img"
+                  />
+                </div>
+                <div class="profile_info">
+                  <span>Welcome,</span>
+                  <h2>AmirMohammd Ghaderi</h2>
+                </div>
+              </div>
+              <!-- /menu profile quick info -->
+
+              <br />
+
+              <!-- sidebar menu -->
+              <div
+                id="sidebar-menu"
+                class="main_menu_side hidden-print main_menu"
+              >
+                <div class="menu_section">
+                  <h3>General</h3>
+                  <ul class="nav side-menu">
+                    <li>
+                      <a
+                        ><i class="fa fa-home"></i> Home
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="index.html">Dashboard</a></li>
+                        <li><a href="index2.html">Dashboard2</a></li>
+                        <li><a href="index3.html">Dashboard3</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-edit"></i> Forms
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="form.html">General Form</a></li>
+                        <li>
+                          <a href="form_advanced.html">Advanced Components</a>
+                        </li>
+                        <li>
+                          <a href="form_validation.html">Form Validation</a>
+                        </li>
+                        <li><a href="form_wizards.html">Form Wizard</a></li>
+                        <li><a href="form_upload.html">Form Upload</a></li>
+                        <li><a href="form_buttons.html">Form Buttons</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-desktop"></i> UI Elements
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li>
+                          <a href="general_elements.html">General Elements</a>
+                        </li>
+                        <li><a href="media_gallery.html">Media Gallery</a></li>
+                        <li><a href="typography.html">Typography</a></li>
+                        <li><a href="icons.html">Icons</a></li>
+                        <li><a href="glyphicons.html">Glyphicons</a></li>
+                        <li><a href="widgets.html">Widgets</a></li>
+                        <li><a href="invoice.html">Invoice</a></li>
+                        <li><a href="inbox.html">Inbox</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-table"></i> Tables
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="tables.html">Tables</a></li>
+                        <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-bar-chart-o"></i> Data Presentation
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="chartjs.html">Chart JS</a></li>
+                        <li><a href="chartjs2.html">Chart JS2</a></li>
+                        <li><a href="morisjs.html">Moris JS</a></li>
+                        <li><a href="echarts.html">ECharts</a></li>
+                        <li><a href="other_charts.html">Other Charts</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-clone"></i>Layouts
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                        <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="menu_section">
+                  <h3>Live On</h3>
+                  <ul class="nav side-menu">
+                    <li>
+                      <a
+                        ><i class="fa fa-bug"></i> Additional Pages
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="e_commerce.html">E-commerce</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li>
+                          <a href="project_detail.html">Project Detail</a>
+                        </li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-windows"></i> Extras
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="page_403.html">403 Error</a></li>
+                        <li><a href="page_404.html">404 Error</a></li>
+                        <li><a href="page_500.html">500 Error</a></li>
+                        <li><a href="plain_page.html">Plain Page</a></li>
+                        <li><a href="login.html">Login Page</a></li>
+                        <li>
+                          <a href="pricing_tables.html">Pricing Tables</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a
+                        ><i class="fa fa-sitemap"></i> Multilevel Menu
+                        <span class="fa fa-chevron-down"></span
+                      ></a>
+                      <ul class="nav child_menu">
+                        <li><a href="#level1_1">Level One</a></li>
+                        <li>
+                          <a
+                            >Level One<span class="fa fa-chevron-down"></span
+                          ></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu">
+                              <a href="level2.html">Level Two</a>
+                            </li>
+                            <li><a href="#level2_1">Level Two</a></li>
+                            <li><a href="#level2_2">Level Two</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">Level One</a></li>
+                      </ul>
+                    </li>
+                  
+                  </ul>
+                </div>
+              </div>
+              <!-- /sidebar menu -->
+
+              
+            </div>
+          </div>
+
+          <!-- top navigation -->
+          <div class="top_nav">
+            <div class="nav_menu">
+              <nav>
+                <div class="nav toggle">
+                  <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="">
+                    <a
+                      href="javascript:;"
+                      class="user-profile dropdown-toggle"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img src="images/img.jpg" alt="" />
+                      <span class="fa fa-angle-down">AmirMohammd Ghaderi</span>
+                    </a>
+                    
+                  </li>
+
+                  <li role="presentation" class="dropdown">
+                    <a
+                      href="javascript:;"
+                      class="dropdown-toggle info-number"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="fa fa-envelope-o"></i>
+                      <span class="badge bg-green">6</span>
+                    </a>
+                    </li>
+                    </ul>
+                    </nav>
+            </div>
+          </div>
+          <!-- /top navigation -->
+
+          <!-- page content -->  
+          <div class="cardbox">
+            <div class="card">
+                <div>
+                    <div class="numbers">
+                        <p>
+                          5,037
+                        </p>
+                    </div>
+                    <div class="cardName">
+                       <p>
+                        Daily visit
+                       </p>
+                    </div>
+                </div>
+                <div class="iconbox">
+                    <i class="fas fa-eye" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">
+                        <p>
+                          534
+                        </p>
+                    </div>
+                    <div class="cardName">
+                        <p>
+                          Sales number
+                        </p>
+                    </div>
+                </div>
+                <div class="iconbox">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">
+                      <p><i class="fa fa-usd" aria-hidden="true"></i>50/400</p>
+                    </div>
+                    <div class="cardName">
+                    <p>Net profit</p>                    </div>
+                </div>
+                <div class="iconbox">
+                    <i class="fas fa-funnel-dollar" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+              <div>
+                  <div class="numbers">
+                    <p>28</p>
+                  </div>
+                  <div class="cardName">
+                  <p>Marketer percentage</p>                    </div>
+              </div>
+              <div class="iconbox">
+                <i class="fas fa-percent" aria-hidden="true"></i>
+              </div>
+          </div>
+        </div>
+            <div class="pageContent">
+              <div id="container" style="width:100%;"></div>
+	
+          <div class="drop">
+           
+            <div class="drop_container" id="drop-items">
+              
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="https://i.postimg.cc/BvPJ7FHN/img1.jpg" alt="img1" class="drop_img">
+    
+                        <div>
+                            <h1 class="drop_name">Clay</h1>
+                            <span class="drop_profession">Web developer</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <a href="#" class="drop_social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+    
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="https://i.postimg.cc/SRkqKt5t/img2.jpg" alt="img1" class="drop_img">
+    
+                        <div>
+                            <h1 class="drop_name">Sara Mill</h1>
+                            <span class="drop_profession">Web designer</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <a href="#" class="drop_social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+    
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="https://i.postimg.cc/9M3C6fB2/img3.jpg" alt="img1" class="drop_img">
+    
+                        <div>
+                            <h1 class="drop_name">Joe Smith</h1>
+                            <span class="drop_profession">Video Editor</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <a href="#" class="drop_social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+    
+                <div class="drop_card">
+                    <div class="drop_data">
+                        <img src="https://i.postimg.cc/qqwr6xHB/img4.jpg" alt="img1" class="drop_img">
+    
+                        <div>
+                            <h1 class="drop_name">Rose Taylor</h1>
+                            <span class="drop_profession">ui/ux designer</span>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <a href="#" class="drop_social"><i class='bx bxl-instagram'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="drop_social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>		
+          <!-- /page content -->
+        </div>
+        </div>
+      </div>
+    </body>
+    <!-- partial -->
+    <script src='https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="./c.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

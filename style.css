@@ -1,0 +1,227 @@
+body {
+  background: #ffffff;
+}
+.menu_section > ul {
+  margin-top: 10px;
+  padding-left: 0px;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .menu_section > ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
+}
+
+.pageContent {
+  margin-top: 5px;
+  display: flex;
+  height: 100%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #888888;
+}
+
+@media screen and (min-width: 992px) {
+  .pageContent {
+    margin-left: 72px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pageContent {
+    flex-wrap: wrap;
+  }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lato:200,300);
+
+#chartdiv {
+  margin-left: 10px;
+  width: 100%;
+  height: 400px;
+  font-size: 11px;
+}
+
+.amcharts-graph-g1 .amcharts-graph-fill {
+  filter: url(#blur);
+}
+
+.amcharts-graph-g2 .amcharts-graph-fill {
+  filter: url(#blur);
+}
+
+.amcharts-cursor-fill {
+  filter: url(#shadow);
+}
+.drop,
+.drop_container {
+  display: grid;
+}
+
+.drop {
+  align-items: center;
+  justify-content: center;
+}
+
+.drop_container {
+  row-gap: 1rem;
+  padding: 2rem;
+  box-shadow: 4px 4px 16px #e1e1e1;
+}
+
+.drop_card,
+.drop_data {
+  display: flex;
+  align-items: center;
+}
+
+.drop_card {
+  width: 360px;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem.75rem 0.75rem;
+  background-color: var(--first-color-lighten);
+  box-shadow: 4px 4px 16px #e1e1e1, -2px -2px 16px #fff;
+  border-radius: 2.5rem;
+}
+
+.drop_img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.drop_name {
+  font-size: var(--normal-font-size);
+  color: var(--first-color);
+  font-weight: 500;
+}
+
+.drop_profession {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-light);
+}
+
+.drop_social {
+  margin: 0 0.375rem;
+  color: var(--first-color-light);
+  transition: 0.4s;
+}
+
+.drop_social:hover {
+  color: var(--first-color);
+}
+
+/* Class name for the chosen item */
+
+.sortable-chosen {
+  box-shadow: 8px 8px 32px #6e6e6e;
+}
+
+/* Class name for the dragging item */
+
+.sortable-drag {
+  opacity: 0;
+}
+
+.cardbox {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Vazir", sans-serif;
+  position: relative;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 75px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.cardbox .card {
+  position: relative;
+  background: #ffffff;
+  padding: 20px;
+  cursor: pointer;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 18px #6e6e6e;
+}
+.cardbox .card .numbers {
+  color: rgb(0, 0, 0);
+  position: relative;
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.cardbox .card .cardName {
+  color: rgb(0, 0, 0);
+  font-size: 1.7em;
+  font-weight: 500;
+}
+.cardbox .card .iconbox {
+  font-size: 1.7em;
+  color: #0343f4;
+}
+
+@media screen and (max-width: 992px) {
+  .drop_container {
+        margin-left: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .cardbox {
+    padding-right: 72px;
+    margin-left: 72px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cardbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 992px) {
+  .drop_card {
+    width: 90vw;
+    margin-left: -55%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav_title {
+    margin-left: 46%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-sm .container.body .col-md-3.left_col {
+    display: contents;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-sm .main_container .top_nav {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .nav-sm ul.nav.child_menu {
+    left: 100%;
+    position: initial;
+    top: 0;
+    width: 100%;
+    z-index: 4000;
+    background: #3e5367;
+    display: none;
+  }
+}
+.nav_menu{
+  background: #ffffff;
+  box-shadow: 5px 10px 18px #6e6e6e;
+}
